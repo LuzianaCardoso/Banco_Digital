@@ -29,6 +29,7 @@ Node.js instalado
 
 **Configure as variáveis de ambiente:**
 
+Crie um arquivo .gitignore e add a pasta node_modules
 No arquivo Package.json, em "scripts", mude o objeto "test": para  {
     *"dev": "nodemon ./src/index.js"*
   },
