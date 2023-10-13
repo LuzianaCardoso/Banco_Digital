@@ -27,7 +27,7 @@ Node.js instalado
 
 *npm install express*
 
-*npm install -D nodemom*
+*npm install -D nodemon*
 
 
 **Configure as variáveis de ambiente:**
