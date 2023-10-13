@@ -24,11 +24,15 @@ Node.js instalado
 # Instale as dependências do projeto:
 
 *npm init -y*
+
 *npm install express*
-*npm install -D nodemom*
+
+*npm install -D nodemon*
+
 
 **Configure as variáveis de ambiente:**
 
+Crie um arquivo .gitignore e adicione a pasta node_modules
 No arquivo Package.json, em "scripts", mude o objeto "test": para  {
     *"dev": "nodemon ./src/index.js"*
   },
