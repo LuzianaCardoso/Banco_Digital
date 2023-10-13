@@ -1,0 +1,18 @@
+{
+  "name": "banco_digital",
+  "version": "1.0.0",
+  "description": "Este é um projeto de API REST para um Banco Digital fictício. A API permite que os clientes realizem várias operações bancárias, como criar contas, fazer depósitos, saques, transferências e verificar o saldo da conta. Ela foi desenvolvida para proporcionar uma experiência bancária digital segura e conveniente aos clientes.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
